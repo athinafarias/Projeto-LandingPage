@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planty - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img class="logo" src="src/logo.png" alt="logo">
+        <nav>
+            <input type="checkbox" id="menu-check">
+            <div class="menu">
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Feed</a>
+                    <a href="#">Wiki</a>
+                    <a href="#">Profile</a>
+                </div>
+
+                <label class="search">
+                    <label><i class='bx bx-search'></i></label>
+                    <input class="barra" type="text">
+                </label>
+
+                <label class="menu-sand" for="menu-check">
+                    <i id="open" class='bx bx-menu'></i>
+                    <i id="close" class='bx bx-x'></i>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>PLANTY</h1>
+            <p>A social-media and Wikipedia <br> for nature lovers.</p>
+            <img class="illustration" src="src/img.png" alt="illustration">
+        </section>
+
+        <section class="entrar">
+            <input type="checkbox" id="check" aria-hidden="true">
+
+            <div class="login">
+                <form>
+                    <label class="title" for="check" aria-hidden="true">Login</label>
+                    <div class="input-box">
+                        <input type="text" name="user" autocomplete="off" placeholder="Username">
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password" placeholder="Password">
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+
+                    <div class="remember">
+                        <label><input type="checkbox" class="checkbox">Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button>Login</button>
+                </form>
+            </div>
+
+            <div class="register">
+                <form class="div-register">
+                    <label class="title" for="check" aria-hidden="true">Register</label>
+                    <div class="input-box">
+                        <input type="text" name="user" autocomplete="off" placeholder="Username">
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" autocomplete="off" placeholder="Email">
+                        <i class='bx bxs-envelope'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password" placeholder="Password">
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+                    <button>Create account</button>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span class="copyright">
+            <p>© Project made by <strong>Athina Farias</strong> for study purposes.</p>
+        </span>
+    </footer>
+</body>
+</html>
